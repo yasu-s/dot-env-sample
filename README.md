@@ -26,3 +26,7 @@ $ node -r dotenv/config index.js
 $ node -r dotenv/config index.js dotenv_config_path=./.env-local
 # output: hogehoge
 ```
+
+# 参考URL
+
+* https://www.npmjs.com/package/dotenv
