@@ -2,6 +2,11 @@
   "name": "dot-env-sample",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:env": "node -r dotenv/config index.js",
+    "start:env-local": "node -r dotenv/config index.js dotenv_config_path=./.env-local"
+  },
   "dependencies": {
     "dotenv": "^8.1.0"
   }
